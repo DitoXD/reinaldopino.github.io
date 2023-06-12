@@ -6,14 +6,14 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" style={{ backgroundImage:`url(${profilePic})`,backgroundRepeat:"no-repeat", backgroundSize:"contain", backgroundPosition:"right"}} className="w-full h-screen bg-[#0a192f]">
+    <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
       <div style={{opacity:"1.0"}} className="max-w-[1080px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#1abbec]">Welcome! My name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-gray-200">
+        <h1 className="text-4xl sm:text-7xl font-bold text-gray-300">
           Reinaldo Pino
         </h1>
-        <h1 className="text-4xl sm:text-7xl font-bold text-gray-300">
+        <h1 className="text-4xl sm:text-7xl font-bold text-gray-400">
           I'm a <span className="text-white">Full Stack Developer</span>.
         </h1>
         <p className="text-gray-300 py-7 max-w-[700px]">
