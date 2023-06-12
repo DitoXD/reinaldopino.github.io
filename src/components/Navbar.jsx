@@ -82,6 +82,40 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <div className="flex flex-row my-4">
+          <li className="h-[60px] flex justify-between items-center hover:scale-110 duration-300 bg-blue-600">
+            <a
+              className="w-full flex justify-between items-center text-gray-300"
+              href="https://www.linkedin.com/in/reinaldo-pino-352350190"
+            >
+              <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="h-[60px] flex justify-between items-center hover:scale-110 duration-300 bg-[#333333]">
+            <a
+              className="w-full flex justify-between items-center text-gray-300"
+              href="https://github.com/DitoXD"
+            >
+              <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="h-[60px] flex justify-between items-center hover:scale-110 duration-300 bg-[#24ba1c]">
+            <a
+              className="w-full flex justify-between items-center text-gray-300"
+              href="mailto:reinaldopino4@gmail.com"
+            >
+              <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="h-[60px] flex justify-between items-center hover:scale-110 duration-300 bg-[#846f96]">
+            <a
+              className="w-full flex justify-between items-center text-gray-300"
+              href={Resume}
+            >
+              <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </div>
       </ul>
 
       {/* Social Icons */}
