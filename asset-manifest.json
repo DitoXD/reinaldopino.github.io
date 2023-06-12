@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/reinaldopino/static/css/main.5f2f47a1.css",
-    "main.js": "/reinaldopino/static/js/main.ed6f5c3b.js",
+    "main.css": "/reinaldopino/static/css/main.5d968c48.css",
+    "main.js": "/reinaldopino/static/js/main.17be6395.js",
+    "static/media/profile-pic-no-background-50-flip.png": "/reinaldopino/static/media/profile-pic-no-background-50-flip.56d94ed5097dc15eefa6.png",
     "static/media/Reinaldo Pino Resume 2023.pdf": "/reinaldopino/static/media/Reinaldo Pino Resume 2023.239a6e3b9f3ee14e74d4.pdf",
     "static/media/react.png": "/reinaldopino/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/python.png": "/reinaldopino/static/media/python.1010cb75f33634e35b12.png",
@@ -14,11 +15,11 @@
     "static/media/logo-no-border.png": "/reinaldopino/static/media/logo-no-border.b69cfce67b01a9aa9c1f.png",
     "static/media/javascript.png": "/reinaldopino/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/reinaldopino/index.html",
-    "main.5f2f47a1.css.map": "/reinaldopino/static/css/main.5f2f47a1.css.map",
-    "main.ed6f5c3b.js.map": "/reinaldopino/static/js/main.ed6f5c3b.js.map"
+    "main.5d968c48.css.map": "/reinaldopino/static/css/main.5d968c48.css.map",
+    "main.17be6395.js.map": "/reinaldopino/static/js/main.17be6395.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f2f47a1.css",
-    "static/js/main.ed6f5c3b.js"
+    "static/css/main.5d968c48.css",
+    "static/js/main.17be6395.js"
   ]
 }
