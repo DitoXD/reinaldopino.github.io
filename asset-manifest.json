@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reinaldopino/static/css/main.5f2f47a1.css",
+    "main.js": "/reinaldopino/static/js/main.ed6f5c3b.js",
+    "static/media/Reinaldo Pino Resume 2023.pdf": "/reinaldopino/static/media/Reinaldo Pino Resume 2023.239a6e3b9f3ee14e74d4.pdf",
+    "static/media/react.png": "/reinaldopino/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/python.png": "/reinaldopino/static/media/python.1010cb75f33634e35b12.png",
+    "static/media/youtube-logo.png": "/reinaldopino/static/media/youtube-logo.4504d71f9d363b16eeec.png",
+    "static/media/node.png": "/reinaldopino/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/github.png": "/reinaldopino/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/reinaldopino/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tic-tac-toe.png": "/reinaldopino/static/media/tic-tac-toe.033d25660c360bd255d6.png",
+    "static/media/tailwind.png": "/reinaldopino/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/logo-no-border.png": "/reinaldopino/static/media/logo-no-border.b69cfce67b01a9aa9c1f.png",
+    "static/media/javascript.png": "/reinaldopino/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/reinaldopino/index.html",
+    "main.5f2f47a1.css.map": "/reinaldopino/static/css/main.5f2f47a1.css.map",
+    "main.ed6f5c3b.js.map": "/reinaldopino/static/js/main.ed6f5c3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f2f47a1.css",
+    "static/js/main.ed6f5c3b.js"
+  ]
+}
