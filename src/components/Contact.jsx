@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contact = () => {
-  return (
+  return (<div>
     <div
       name="contact"
       className="w-full h-screen bg-[#0a192f] text-gray-300 flex justify-center items-center p-4"
@@ -25,7 +25,12 @@ const Contact = () => {
         <textarea className="bg-[#ccd6f6] p-2 text-black" name="message" rows="10" placeholder='Message'></textarea>
         <button className="text-white border-2 hover:bg-[#1abbec] hover:border-[#1abbec] px-4 py-3 my-8 mx-auto flex items-center duration-300">Let's Collaborate</button>
       </form>
+      
     </div>
+    <div className="w-full h-24 bg-[#0a192f] text-white">
+      <div className="w-full h-full bg-gradient-to-b from-transparent to-black  pt-8">
+      </div>
+    </div></div>
   );
 };
 

@@ -1,22 +1,23 @@
 import React from "react";
-import profilePic from '../assets/profile-pic-no-background-50-flip.png';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import sectionBg from "../assets/vscode.jpg"
+
 
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div name="home" style={{backgroundImage: `url(${sectionBg})`}} className="w-full h-screen bg-cover bg-fixed bg-center">
       {/* Container */}
-      <div style={{opacity:"1.0"}} className="max-w-[1080px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1080px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#1abbec]">Welcome! My name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-gray-300">
+        <h1 className="text-4xl sm:text-7xl font-bold text-white">
           Reinaldo Pino
         </h1>
-        <h1 className="text-4xl sm:text-7xl font-bold text-gray-400">
-          I'm a <span className="text-white">Full Stack Developer</span>.
+        <h1 className="text-4xl sm:text-7xl font-bold text-gray-300 underline">
+          I'm a <span className="text-[#1abbec]">Full Stack Developer</span>.
         </h1>
-        <p className="text-gray-300 py-7 max-w-[700px]">
+        <p className="text-white my-4 py-3 max-w-[700px] bg-black bg-opacity-30">
           I'm a full-stack developer who loves to create efficient, fully
           functional applications to satisfy the digital needs of clients. My
           current focus is improving my design skills to provide a better user
@@ -24,7 +25,7 @@ const Home = () => {
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#1abbec] hover:border-[#1abbec] duration-200">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex font-bold items-center bg-black bg-opacity-70 hover:bg-[#1abbec] hover:bg-opacity-100 hover:border-[#1abbec] duration-200">
               View Projects
               <span className="group-hover:rotate-90 group-hover:translate-x-[10px] group-hover:translate-y-[-5px] duration-300">
                 <HiArrowNarrowRight className="ml-3" />
